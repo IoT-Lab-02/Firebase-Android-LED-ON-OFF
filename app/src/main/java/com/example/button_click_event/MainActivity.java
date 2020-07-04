@@ -1,4 +1,4 @@
-// Remote LEC Control
+// Remote LED Control on Firebase
 // https://led-on-off-7ac0f.firebaseio.com/
 
 package com.example.button_click_event;
