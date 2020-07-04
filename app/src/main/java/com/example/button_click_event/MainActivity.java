@@ -29,7 +29,6 @@ public class MainActivity extends AppCompatActivity {
 
     FirebaseDatabase database = FirebaseDatabase.getInstance();
     DatabaseReference myRef = database.getReference("LED_STATUS");
-    DatabaseReference myRef2 = database.getReference();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,12 +45,13 @@ public class MainActivity extends AppCompatActivity {
         textView = (TextView)findViewById(R.id.textView);
         setTitle("LED Remote Control");
         textView.setText(myRef.getKey());
-
     }
 
     public  void SetListener() {
-
+        // read from the Database, addValue Event Listenning
         readDB();
+
+        // ON_Button Click
         btn_LED_ON.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view)
@@ -62,6 +62,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        // OFF_Button Click
         btn_LED_OFF.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view)
@@ -71,29 +72,10 @@ public class MainActivity extends AppCompatActivity {
                 myRef.setValue("OFF");
             }
         });
-
-//        // read from the Database
-//        myRef.addValueEventListener(new ValueEventListener() {
-//            @Override
-//            public void onDataChange(DataSnapshot dataSnapshot) {
-//                String ledState = (String) dataSnapshot.getValue();
-//                //String value = dataSnapshot.getValue(String.class);
-//                if (ledState == "ON") {
-//                    textView.setText("LED is changed ON");
-//                } else if(ledState == "OFF") {
-//                    textView.setText("LED is changed OFF");
-//                }
-//            }
-//
-//            @Override
-//            public void onCancelled(DatabaseError databaseError) {
-//
-//            }
-//        });
     }
 
     public void readDB() {
-        // read from the Database
+        // read from the Database,  addValue Event Listenning
         myRef.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
@@ -101,11 +83,6 @@ public class MainActivity extends AppCompatActivity {
                 //String value = dataSnapshot.getValue(String.class);
 
                 textView.setText("LED is " + ledState);
-//                if (ledState == "ON") {
-//                    textView.setText("LED is changed ON");
-//                } else if(ledState == "OFF") {
-//                    textView.setText("LED is changed OFF");
-//                }
             }
 
             @Override
@@ -113,6 +90,5 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
-
     }
 }

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/jhkim/AndroidStudioProjects/Button_Click_Event/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-es/values-es.xml",
+            "outputFile": "/Users/jhkim/AndroidStudioProjects/Firebase-Android-LED-ON-OFF/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-es/values-es.xml",
             "map": [
                 {
                     "source": "/Users/jhkim/.gradle/caches/transforms-2/files-2.1/d24abc72c1496c6186076a1af6a9094c/jetified-play-services-base-16.0.1/res/values-es/values.xml",

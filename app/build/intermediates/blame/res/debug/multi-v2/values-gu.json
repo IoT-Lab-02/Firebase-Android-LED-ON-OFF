@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/jhkim/AndroidStudioProjects/Button_Click_Event/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-gu/values-gu.xml",
+            "outputFile": "/Users/jhkim/AndroidStudioProjects/Firebase-Android-LED-ON-OFF/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-gu/values-gu.xml",
             "map": [
                 {
                     "source": "/Users/jhkim/.gradle/caches/transforms-2/files-2.1/426b41a412186af36330cd4ba591c080/core-1.1.0/res/values-gu/values-gu.xml",
