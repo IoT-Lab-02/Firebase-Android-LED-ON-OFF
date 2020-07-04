@@ -1,8 +1,25 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/jhkim/AndroidStudioProjects/Firebase-Android-LED-ON-OFF/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/Users/jhkim/OneDrive - dit.ac.kr/2020/강의/IoT2/Lec_Source/Week13/Firebase-Android-LED-ON-OFF/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
+                {
+                    "source": "/Users/jhkim/OneDrive - dit.ac.kr/2020/강의/IoT2/Lec_Source/Week13/Firebase-Android-LED-ON-OFF/app/build/generated/res/google-services/debug/values/values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,199,310,392,496,605,725,825",
+                        "endColumns": "143,110,81,103,108,119,99,76",
+                        "endOffsets": "194,305,387,491,600,720,820,897"
+                    },
+                    "to": {
+                        "startLines": "439,440,441,442,443,444,445,446",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "27528,27672,27783,27865,27969,28078,28198,28298",
+                        "endColumns": "143,110,81,103,108,119,99,76",
+                        "endOffsets": "27667,27778,27860,27964,28073,28193,28293,28370"
+                    }
+                },
                 {
                     "source": "/Users/jhkim/.gradle/caches/transforms-2/files-2.1/ed2e7565d6c3314fe0aa868e313e324e/constraintlayout-1.1.3/res/values/values.xml",
                     "from": {
@@ -57,20 +74,20 @@
                     }
                 },
                 {
-                    "source": "/Users/jhkim/AndroidStudioProjects/Firebase-Android-LED-ON-OFF/app/build/generated/res/google-services/debug/values/values.xml",
+                    "source": "/Users/jhkim/OneDrive - dit.ac.kr/2020/강의/IoT2/Lec_Source/Week13/Firebase-Android-LED-ON-OFF/app/src/main/res/values/strings.xml",
                     "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,199,310,392,496,605,725,825",
-                        "endColumns": "143,110,81,103,108,119,99,76",
-                        "endOffsets": "194,305,387,491,600,720,820,897"
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "16",
+                        "endColumns": "55",
+                        "endOffsets": "67"
                     },
                     "to": {
-                        "startLines": "439,440,441,442,443,444,445,446",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "27528,27672,27783,27865,27969,28078,28198,28298",
-                        "endColumns": "143,110,81,103,108,119,99,76",
-                        "endOffsets": "27667,27778,27860,27964,28073,28193,28293,28370"
+                        "startLines": "420",
+                        "startColumns": "4",
+                        "startOffsets": "25139",
+                        "endColumns": "55",
+                        "endOffsets": "25190"
                     }
                 },
                 {
@@ -93,7 +110,7 @@
                     }
                 },
                 {
-                    "source": "/Users/jhkim/AndroidStudioProjects/Firebase-Android-LED-ON-OFF/app/src/main/res/values/styles.xml",
+                    "source": "/Users/jhkim/OneDrive - dit.ac.kr/2020/강의/IoT2/Lec_Source/Week13/Firebase-Android-LED-ON-OFF/app/src/main/res/values/styles.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "4",
@@ -112,7 +129,7 @@
                     }
                 },
                 {
-                    "source": "/Users/jhkim/AndroidStudioProjects/Firebase-Android-LED-ON-OFF/app/src/main/res/values/colors.xml",
+                    "source": "/Users/jhkim/OneDrive - dit.ac.kr/2020/강의/IoT2/Lec_Source/Week13/Firebase-Android-LED-ON-OFF/app/src/main/res/values/colors.xml",
                     "from": {
                         "startLines": "4,2,3",
                         "startColumns": "4,4,4",
@@ -164,23 +181,6 @@
                         "endLines": "156,157,158,159,160,161,162,163,421,422,423,424,425,426,427,428,430,431,432,433,434,435,436,437,438,3013,3269",
                         "endColumns": "89,79,89,89,79,80,79,79,104,180,124,106,179,122,115,102,187,104,180,124,174,147,62,61,78,20,20",
                         "endOffsets": "7933,8013,8103,8193,8273,8354,8434,8514,25295,25476,25601,25708,25888,26011,26127,26230,26585,26690,26871,26996,27171,27319,27382,27444,27523,195863,207920"
-                    }
-                },
-                {
-                    "source": "/Users/jhkim/AndroidStudioProjects/Firebase-Android-LED-ON-OFF/app/src/main/res/values/strings.xml",
-                    "from": {
-                        "startLines": "1",
-                        "startColumns": "4",
-                        "startOffsets": "16",
-                        "endColumns": "55",
-                        "endOffsets": "67"
-                    },
-                    "to": {
-                        "startLines": "420",
-                        "startColumns": "4",
-                        "startOffsets": "25139",
-                        "endColumns": "55",
-                        "endOffsets": "25190"
                     }
                 },
                 {

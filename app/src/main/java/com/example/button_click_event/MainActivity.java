@@ -49,7 +49,20 @@ public class MainActivity extends AppCompatActivity {
 
     public  void SetListener() {
         // read from the Database, addValue Event Listenning
-        readDB();
+        myRef.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                String ledState = (String) dataSnapshot.getValue();
+                //String value = dataSnapshot.getValue(String.class);
+
+                textView.setText("LED is " + ledState);
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+
+            }
+        });
 
         // ON_Button Click
         btn_LED_ON.setOnClickListener(new View.OnClickListener(){
@@ -70,24 +83,6 @@ public class MainActivity extends AppCompatActivity {
                 textView.setBackgroundColor(Color.WHITE);
                 // write to the Database
                 myRef.setValue("OFF");
-            }
-        });
-    }
-
-    public void readDB() {
-        // read from the Database,  addValue Event Listenning
-        myRef.addValueEventListener(new ValueEventListener() {
-            @Override
-            public void onDataChange(DataSnapshot dataSnapshot) {
-                String ledState = (String) dataSnapshot.getValue();
-                //String value = dataSnapshot.getValue(String.class);
-
-                textView.setText("LED is " + ledState);
-            }
-
-            @Override
-            public void onCancelled(DatabaseError databaseError) {
-
             }
         });
     }

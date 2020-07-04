@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/jhkim/AndroidStudioProjects/Firebase-Android-LED-ON-OFF/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pt/values-pt.xml",
+            "outputFile": "/Users/jhkim/OneDrive - dit.ac.kr/2020/강의/IoT2/Lec_Source/Week13/Firebase-Android-LED-ON-OFF/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pt/values-pt.xml",
             "map": [
                 {
                     "source": "/Users/jhkim/.gradle/caches/transforms-2/files-2.1/ab8fd7a2a88200ada28c05c97833585d/appcompat-1.1.0/res/values-pt/values-pt.xml",
